@@ -6,7 +6,7 @@ export default function Plantilla5() {
 
   const bg = tema === "dark" ? "#121212" : "#ffffff";
   const text = tema === "dark" ? "#e6e6e6" : "#222";
-  const accent = tema === "dark" ? "#ff6f61" : "#d32f2f";
+  const accent = tema === "dark" ? "#4dabf7" : "#1976d2";
 
   const sectionStyle = {
     marginTop: 25,
