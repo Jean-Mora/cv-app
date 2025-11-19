@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Paralaje del header */
+.parallax {
+  background-image: url('https://images.unsplash.com/photo-1503264116251-35a269479413');
+  height: 280px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding-top: 70px;
+}
+
+button {
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+input {
+  margin: 5px;
+  padding: 8px;
+}
+
+.plantillas-grid {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.btn-plantilla {
+  padding: 8px 12px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  background: #eee;
+  border-radius: 6px;
+}
+
+.btn-plantilla:hover {
+  background: #ddd;
+}
+
+.plantilla-activa {
+  background: #4287f5;
+  color: white;
+  border-color: #326cd1;
+}
